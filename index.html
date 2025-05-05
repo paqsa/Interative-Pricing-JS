@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Interative Pricing</title>
+</head>
+<body>
+    <section class="heroSection">
+        <h2>Simple, traffic-based pricing</h2>
+        <h4>Sign-up for our 30-day trial. No credit card required. </h4>
+    </section>
+
+    <section class="pricingSection">
+        <div class="pricingDiv">
+            <div class="pricingContent">
+                <div class="contentFirst">
+                    <p class="contentView">100K PAGEVIEWS</p>
+                    <div class="pricingDivSection">
+                        <p id="price" class="price">$16.00</p>
+                        <span class="month">/ month</span>
+                    </div>
+                </div>
+
+                <div class="slider-container">
+                    <input type="range" min="1" max="5" value="3" step="1" id="pricingSlider">
+                </div>
+                
+                <div class="billingClass">
+                    <div class="billingDiv">
+                        <p class="styleOfText">Monthly Billing</p>
+                        <svg id="svgGreen"  xmlns="http://www.w3.org/2000/svg" width="43" height="22" viewBox="0 0 43 22" fill="none">
+                            <rect width="43" height="22" rx="11" fill="#CFD8EF"/>
+                            <circle cx="11" cy="11" r="7" fill="white"/>
+                        </svg>
+                        <p class="styleOfText">Yearly Billing</p>
+                        <p class="discount">25% discount</p>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="svgContentInformation">
+                    <div class="svgContent">
+                        <div class="svgClass">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                                <path d="M0 4.13439L1.90736 6.04175L6.9491 1" stroke="#10D8C4" stroke-width="2"/>
+                            </svg>
+                            <p class="svgInfo">Unlimited websites</p>
+                        </div>
+
+                        <div class="svgClass">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                                <path d="M0 4.13439L1.90736 6.04175L6.9491 1" stroke="#10D8C4" stroke-width="2"/>
+                            </svg>
+                            <p class="svgInfo">100% data ownership </p>
+                        </div>
+
+                        <div class="svgClass">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                                <path d="M0 4.13439L1.90736 6.04175L6.9491 1" stroke="#10D8C4" stroke-width="2"/>
+                            </svg>
+                            <p class="svgInfo">Email reports</p>
+                        </div>
+                    </div>
+
+                    <div class="trialDiv">
+                        <p class="start">Start my trial</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="slider.js"></script>
+</body>
+</html>

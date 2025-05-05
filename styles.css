@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&family=Martian+Mono:wght@100..800&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Manrope;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #fff5f5;
+    gap: 30px;
+}
+
+.heroSection {
+    text-align: center;
+}
+
+.heroSection h2 {
+    color: #293356;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.heroSection h4 {
+    color: #848EAD;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.pricingDiv {
+    width: 540px;
+    height: 397px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 20px 30px -5px rgba(127, 137, 185, 0.15);
+}
+
+.pricingContent {
+    padding: 33px;
+}
+
+.contentFirst {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.price {
+    color: #293356;
+    margin-left: auto;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -1px;
+    display: flex;
+    align-items: center;
+}
+
+.month {
+    color: #848EAD;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contentView {
+    color: #848EAD;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.slider-container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #7fffd4, #e0e0f8);
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: #00d1c1;
+    box-shadow: 0 0 20px #00d1c1;
+    cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: #00d1c1;
+    box-shadow: 0 0 20px #00d1c1;
+    cursor: pointer;
+}
+
+.billingDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 57px;
+}
+
+.billingClass {
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    height: 1px;
+    flex-shrink: 0;
+    background: #ECF0FB;
+    margin-top: 40px;
+}
+
+.svgClass {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.svgInfo {
+    color: #848EAD;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.svgContentInformation {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.svgContent {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.start {
+    color: #BECDFF;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 20.5px;
+    background: #293356;
+    padding: 12px 46px;
+    width: 170px;
+}
+
+.trialDiv {
+    margin-left: auto;
+}
+
+.pricingDivSection {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    align-items: center;
+}
+
+.styleOfText {
+    color: #848EAD;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.discount {
+    color: #FF8D68;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 800;
+    border-radius: 9.5px;
+    background: #FEEDE8;  
+    padding: 2px 6px;
+    display: flex;
+    align-items: center;
+}
+
